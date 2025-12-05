@@ -2,6 +2,7 @@
 
 This repository contains a Python SDK implementation for **Palo Alto Networks AI Model Security**. It allows you to programmatically scan AI models (hosted on Hugging Face or stored locally) for vulnerabilities, malicious code, and integrity issues.
 
+Refference https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-security/model-security-to-secure-your-ai-models
 
 ## Prerequisites
 
