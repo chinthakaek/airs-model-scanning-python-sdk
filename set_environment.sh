@@ -16,5 +16,8 @@ pipindexlink=$(./getPYPIurl.sh)
 # Install the model-security-client
 pip install model-security-client --extra-index-url $pipindexlink
 
+# Install dependencies:**
+pip install -r requirements.txt
+
 # Update pip
 pip install --upgrade pip
