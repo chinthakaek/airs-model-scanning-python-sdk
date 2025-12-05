@@ -21,7 +21,7 @@ This repository contains a Python SDK implementation for **Palo Alto Networks AI
     MODEL_SECURITY_CLIENT_ID="your_client_id_here"
     MODEL_SECURITY_CLIENT_SECRET="your_client_secret_here"
     TSG_ID="your_tsg_id_here"
-    MODEL_SECURITY_API_ENDPOINT="[https://api.sase.paloaltonetworks.com](https://api.sase.paloaltonetworks.com)"
+    MODEL_SECURITY_API_ENDPOINT="https://api.sase.paloaltonetworks.com/aims"
     SECURITY_GROUP_UUID_HF="your_huggingface_uuid"
     SECURITY_GROUP_UUID_LOCAL="your_local_uuid"
 
