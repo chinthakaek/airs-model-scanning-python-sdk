@@ -32,6 +32,7 @@ This repository contains a Python SDK implementation for **Palo Alto Networks AI
     ./set_envrionment.sh
 
 4. Access the VENV created
+    ```bash
     source venv/bin/activate
 
 5. Run the scans
