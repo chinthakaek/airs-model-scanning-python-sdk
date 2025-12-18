@@ -14,7 +14,7 @@ Reference https://docs.paloaltonetworks.com/ai-runtime-security/ai-model-securit
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/chinthakaek/airs-model-scanning-python-sdk.git](https://github.com/chinthakaek/airs-model-scanning-python-sdk.git)
+   git clone https://github.com/chinthakaek/airs-model-scanning-python-sdk.git
    cd airs-model-scanning-python-sdk
 
 2. Copy the content of "example env file" and create new .env file. Update with your credentials
