@@ -1,6 +1,5 @@
 import sys
 import os
-import pprint
 from dotenv import load_dotenv
 from model_security_client.api import ModelSecurityAPIClient
 
@@ -34,15 +33,7 @@ if __name__ == "__main__":
             model_uri=target_model_uri  # <--- Input from command line
         )
         print(f"Scan completed: {result.eval_outcome}\n")
-
-        # 5. Print Results
-        try:
-            data_dict = result.model_dump()
-        except AttributeError:
-            # Fallback if model_dump() is unavailable
-            data_dict = result.__dict__
-            
-        pprint.pprint(data_dict, indent=4)
+        print(result.model_dump_json(indent=2))
 
     except Exception as e:
         print(f"⚠️ An error occurred: {e}")
